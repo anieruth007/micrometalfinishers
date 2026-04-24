@@ -118,28 +118,30 @@
     </script>
 </head>
 <body class="bg-background text-on-background min-h-screen flex flex-col">
-<!-- TopAppBar -->
-<nav class="bg-[#1B1E21] dark:bg-[#1B1E21] docked full-width top-0 sticky z-50 border-b-2 border-[#333C42]">
-<div class="flex justify-between items-center w-full px-16 h-20">
-<div class="text-2xl font-black tracking-widest text-white border-r-2 border-[#A0AAB2] pr-6 mr-6" style="">
-                MICRO MACHINES COMPONENTS</div>
-<div class="hidden md:flex items-center space-x-8">
-<a class="font-mono uppercase tracking-tighter text-sm text-slate-400 hover:text-white transition-colors duration-100 hover:bg-[#333C42] px-3 py-2" href="index.html">Home</a>
-<a class="font-mono uppercase tracking-tighter text-sm text-slate-400 hover:text-white transition-colors duration-100 hover:bg-[#333C42] px-3 py-2" href="services.html">Services</a>
-<a class="font-mono uppercase tracking-tighter text-sm text-slate-400 hover:text-white transition-colors duration-100 hover:bg-[#333C42] px-3 py-2" href="why-us.html">Why Us</a>
-<a class="font-mono uppercase tracking-tighter text-sm text-white border-b-2 border-white pb-1 transition-colors duration-100 hover:bg-[#333C42] px-3 py-2" href="contact.html">Contact</a>
+<header style="background:#1B1E21;position:sticky;top:0;z-index:50;border-bottom:2px solid #A0AAB2;font-family:Inter,sans-serif;">
+<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 64px;background:#0c0f0f;border-bottom:1px solid #333C42;">
+  <div style="display:flex;gap:24px;font-size:13px;color:#bec8d0;">
+    <span>&#128222; 89561 30498 / 91763 30157</span>
+    <span>&#9993; micrometalfinishers@gmail.com</span>
+  </div>
+  <span style="font-size:12px;color:#c5c6ca;letter-spacing:0.1em;text-transform:uppercase;">&#10003; QUALITY ASSURED</span>
 </div>
-<div class="flex items-center space-x-4">
-<div class="flex space-x-2 text-slate-100 dark:text-slate-100">
-<span class="material-symbols-outlined hover:bg-[#333C42] transition-colors duration-100 p-2 cursor-pointer" style='font-variation-settings: "FILL" 0;'>settings_input_component</span>
-<span class="material-symbols-outlined hover:bg-[#333C42] transition-colors duration-100 p-2 cursor-pointer" style='font-variation-settings: "FILL" 0;'>precision_manufacturing</span>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:14px 64px;background:#1B1E21;">
+  <a href="index.html" style="text-decoration:none;">
+    <div style="font-size:20px;font-weight:900;color:#fff;letter-spacing:0.08em;font-style:italic;">MICRO MACHINES COMPONENTS</div>
+    <div style="font-size:10px;color:#bec8d0;letter-spacing:0.2em;text-transform:uppercase;margin-top:2px;">A ISO 9001:2015 CERTIFIED COMPANY</div>
+  </a>
+  <nav style="display:flex;gap:2px;font-family:monospace;text-transform:uppercase;font-size:13px;">
+    <a href="index.html" style="color:#A0AAB2;padding:8px 12px;text-decoration:none;" onmouseover="this.style.color='#fff';this.style.background='#333C42'" onmouseout="this.style.color='#A0AAB2';this.style.background='transparent'">Home</a>
+    <a href="services.html" style="color:#A0AAB2;padding:8px 12px;text-decoration:none;" onmouseover="this.style.color='#fff';this.style.background='#333C42'" onmouseout="this.style.color='#A0AAB2';this.style.background='transparent'">Services</a>
+    <a href="why-us.html" style="color:#A0AAB2;padding:8px 12px;text-decoration:none;" onmouseover="this.style.color='#fff';this.style.background='#333C42'" onmouseout="this.style.color='#A0AAB2';this.style.background='transparent'">Why Us</a>
+    <a href="contact.html" style="color:#A0AAB2;padding:8px 12px;text-decoration:none;" onmouseover="this.style.color='#fff';this.style.background='#333C42'" onmouseout="this.style.color='#A0AAB2';this.style.background='transparent'">Contact</a>
+  </nav>
+  <a href="quote.html" style="background:#fff;color:#000;padding:10px 24px;font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;">Request a Quote</a>
 </div>
-<button class="font-mono uppercase tracking-tighter text-sm bg-white text-black px-6 py-2 border-2 border-white hover:bg-transparent hover:text-white transition-colors duration-200" style="">
-                    Get a Quote
-                </button>
-</div>
-</div>
-</nav>
+</header>
+
+
 <!-- Main Content Canvas -->
 <main class="flex-grow px-margin py-section-gap">
 <div class="max-w-[1440px] mx-auto">
@@ -314,7 +316,7 @@
     <a href="quote.html" style="color:#A0AAB2;text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#A0AAB2'">Get a Quote</a>
   </nav>
   <div style="font-family:monospace;font-size:11px;text-transform:uppercase;color:#A0AAB2;text-align:right;">
-    &copy; 2025 MICRO MACHINES COMPONENTS.<br>ENGINEERED PRECISION. ALL RIGHTS RESERVED.
+    &copy; 2025 MICRO MACHINES COMPONENTS. ALL RIGHTS RESERVED.
   </div>
 </footer>
 </body></html>
